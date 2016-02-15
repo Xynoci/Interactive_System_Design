@@ -102,7 +102,7 @@
 								<div id="Green" title="Green" class="easyui-tooltip" style="background: Lime;"></div>
 								<div id="Blue" title="Blue" class="easyui-tooltip" style="background: blue; box-shadow: inset 0 0 10px #3F3F3F;"></div>
 								<div id="Cyan" title="Cyan" class="easyui-tooltip" style="background: cyan;"></div>
-								<div id="Megenta" title="Megenta" class="easyui-tooltip" style="background: magenta;"></div>
+								<div id="Magenta" title="Magenta" class="easyui-tooltip" style="background: magenta;"></div>
 								<div id="White" title="White" class="easyui-tooltip" style="background: white; border: 1px #808080 solid;"></div>
 								<div id="Light_Gray" title="Light Gray" class="easyui-tooltip" style="background: Silver;"></div>
 								<div id="Gray" title="Gray" class="easyui-tooltip" style="background: Gray;"></div>
@@ -122,7 +122,7 @@
 								<div id="Green" title="Green" class="easyui-tooltip" style="background: Lime;"></div>
 								<div id="Blue" title="Blue" class="easyui-tooltip" style="background: blue;"></div>
 								<div id="Cyan" title="Cyan" class="easyui-tooltip" style="background: cyan;"></div>
-								<div id="Megenta" title="Megenta" class="easyui-tooltip" style="background: magenta;"></div>
+								<div id="Magenta" title="Magenta" class="easyui-tooltip" style="background: magenta;"></div>
 								<div id="White" title="White" class="easyui-tooltip" style="background: white; border: 1px #808080 solid;"></div>
 								<div id="Light_Gray" title="Light Gray" class="easyui-tooltip" style="background: Silver; box-shadow: inset 0 0 10px #3F3F3F;"></div>
 								<div id="Gray" title="Gray" class="easyui-tooltip" style="background: Gray;"></div>

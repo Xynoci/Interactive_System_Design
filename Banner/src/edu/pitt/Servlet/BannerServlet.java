@@ -38,14 +38,6 @@ public class BannerServlet extends HttpServlet {
 		ps.setColor(request.getParameter("COLOR"));
 		ps.setBgcolor(request.getParameter("BGCOLOR"));
 		
-		
-		System.out.println("\nyy COLOR: "+request.getParameter("COLOR"));
-		System.out.println("yy: BGCOLOR "+request.getParameter("BGCOLOR"));
-		System.out.println("ps: COLOR "+ps.getColor());
-		System.out.println("ps: BGCOLOR "+ps.getBgcolor());
-		
-		HttpSession session = request.getSession();
-		//session.setAttribute("ParamsSet", ps);
 		request.setAttribute("ParamsSet", ps);
 		System.out.println("\nName: "+ps.getName()+
 				"\nFTSIZE: "+ps.getFtsize()+
@@ -57,7 +49,6 @@ public class BannerServlet extends HttpServlet {
 				"\nBGCOLOR: "+ps.getBgcolor());
 
 		RequestDispatcher dispatcher = request.getRequestDispatcher("Banner.jsp");
-		
 		dispatcher.forward(request, response);
 	}
 
